@@ -7,5 +7,4 @@
       yum:
         name: java-11-openjdk-devel
         update_cache: yes
-        state: presentgit status
-        
+        state: present
