@@ -1,0 +1,10 @@
+---
+- name: java install
+  become: yes
+  hosts: all
+  tasks:
+    - name: instal java-11
+      apt:
+        name: openjdk-11-jdk
+        update_cache: yes
+        state: present
